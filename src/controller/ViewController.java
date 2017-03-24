@@ -32,12 +32,6 @@ public class ViewController implements Initializable {
 
         boggle = new Boggle(gridSize);
 
-        //Choose wordlist from textfile(seperated by line)
-        chooseFile = new ChooseFile();
-        File file = new File("src/wordlist.txt"); //set default file to dutch
-        chooseFile.setFile(file);
-        this.wordList = chooseFile.getChosenFileInList();
-
         //Fix hbox position
         gridPane.widthProperty().addListener((observableValue, oldSceneWidth, newSceneWidth)->{
             hBox.setLayoutX(gridPane.getLayoutX() + 16);
