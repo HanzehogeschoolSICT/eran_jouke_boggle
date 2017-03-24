@@ -1,4 +1,4 @@
-# Boggle Exercise
+# Boggle Exercise [![BCH compliance](https://bettercodehub.com/edge/badge/HanzehogeschoolSICT/eran_jouke_boggle)](https://bettercodehub.com/)
 # This is a project for the Hanze University.
 For this exercise we needed to solve a boggle board using a dictionary.  
 A default Boggle board has a 4*4 grid. 
