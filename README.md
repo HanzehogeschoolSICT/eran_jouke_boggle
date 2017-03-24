@@ -15,6 +15,6 @@ Ideas:
 - When a word like 'add' is not found, stop searching for new combinations that start with 'add' like 'adding'
 
 # Presentation:
-![Image](presentation.png)
+![Image](presentation.PNG)
 
 
